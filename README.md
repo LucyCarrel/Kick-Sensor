@@ -6,10 +6,7 @@ An Arduino-based wearable that detects a kick using an MPU6050 accelerometer/gyr
 
 - Arduino Uno
 - MPU6050 (accelerometer + gyroscope)
-- SD card module (SPI)
-- Pushbutton
-- LED + resistor
-- Buzzer
+- SD card 
 
 ## Wiring
 
@@ -21,9 +18,7 @@ An Arduino-based wearable that detects a kick using an MPU6050 accelerometer/gyr
 | SD card MOSI (DI) | D11 |
 | SD card MISO (DO) | D12 |
 | SD card SCK | D13 |
-| Buzzer | D8 |
-| Pushbutton | D2 |
-| LED (+ resistor) | D4 |
+
 
 MPU6050 and SD module both share the Uno's 5V and GND rails.
 
